@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lukemi.statubarapp.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_circle_indicator_radius"
+        android:background="@color/red" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="沉浸式状态栏"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_drawlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/immersive" />
+    <Button
+        android:id="@+id/btn_IndexActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="索引列表" />
+
+    <Button
+        android:id="@+id/btn_Dialogfragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="沉浸式Dialogfragment" />
+    <Button
+        android:id="@+id/btn_MenuActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="沉浸式MenuActivity" />
+
+
+
+</LinearLayout>

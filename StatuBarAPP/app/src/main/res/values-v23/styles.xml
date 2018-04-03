@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //沉浸式状态栏
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!--透明状态栏-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--透明导航栏-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--使状态栏，导航栏可绘制-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--亮色状态栏字体模式-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
